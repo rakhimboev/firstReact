@@ -1,0 +1,79 @@
+.box {
+  background: #fbfbfb;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.products {
+  display: flex;
+}
+
+.picture {
+  margin: 0 5px;
+}
+
+.titles {
+  padding: 20px 5px;
+}
+
+.titles h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3d3d3d;
+}
+
+.titles p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a5a5a5;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #727272;
+  display: flex;
+  align-items: center;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 10px;
+  color: #3d3d3d;
+}
+
+.quantity button {
+  background: linear-gradient(180deg, #46a358 0%, rgba(70, 163, 88, 0.8) 100%);
+  border-radius: 29px;
+  width: 21.71px;
+  height: 25px;
+  border: none;
+  color: white;
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #46a358;
+}
+
+.delete {
+    margin: 20px;
+}
